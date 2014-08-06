@@ -1,0 +1,17 @@
+[
+{
+  "modid": "pneumaticpopcorn",
+  "name": "PneumaticCraft Popcorn",
+  "description": "Adds Popcorn to Minecraft, addon to PneumaticCraft",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "J3FF97" ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "parent":"",
+  "dependencies": [PneumaticCraft]
+}
+]
