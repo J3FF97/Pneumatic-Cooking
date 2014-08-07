@@ -15,7 +15,7 @@ public class ConfigurationHandler
  //   public static boolean testValue              = false;
     public static boolean usePressureRecipe      = true;
     public static float   requiredPressure       = 0.5F;
-    public static int     amountOfKernelFromCorn = 8;
+    public static int     amountOfKernelFromCorn = 4;
     public static int     amountOfCornFromCrop   = 1;
 
     public static void init(File configFile)
@@ -40,7 +40,7 @@ public class ConfigurationHandler
         desc = "How much pressure is required to make Popcorn. Default 0.5F. Max 6.0F due to Pressure Chamber restrictions";
         requiredPressure = configuration.getFloat("requiredPressure", Configuration.CATEGORY_GENERAL, requiredPressure, 0.0F, 6.0F, desc );
 
-        desc = "How many Kernels you get from one corn cob. Default is 8.";
+        desc = "How many Kernels you get from one corn cob. Default is 4.";
         amountOfKernelFromCorn = getInt("amountOfKernelFromCornName", amountOfKernelFromCorn, desc);
 
         desc = "How many Corn you get from the plant. Default is 1";

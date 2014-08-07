@@ -15,7 +15,7 @@ public class CraftingHandler
     {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemCornKernel, ConfigurationHandler.amountOfKernelFromCorn), ModItems.itemCorn);
 
-        if(ConfigurationHandler.usePressureRecipe)
+        if(ConfigurationHandler.usePressureRecipe && Loader.isModLoaded("PneumaticCraft"))
         {
             PressureChamberRecipe.chamberRecipes.add(new PressureChamberRecipe(new ItemStack[]{new ItemStack(ModItems.itemCornKernel)}, ConfigurationHandler.requiredPressure, new ItemStack[]{new ItemStack(ModItems.itemPopCorn)}, false));
         }

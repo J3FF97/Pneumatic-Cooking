@@ -4,8 +4,8 @@ public class Names
 {
 
     public static final String itemCornKernelName = "cornKernel";
-    public static final String itemCornName = "corn";
-    public static final String itemPopCornName = "popcorn";
+    public static final String itemCornName = "cornCob";
+    public static final String itemPopCornName = "popCorn";
 
     public static final String cropCornName = "cropCorn";
 

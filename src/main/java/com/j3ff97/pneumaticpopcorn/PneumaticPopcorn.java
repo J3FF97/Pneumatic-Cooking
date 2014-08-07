@@ -16,7 +16,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = Reference.ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUIFACTORY ,dependencies =  "required-after:PneumaticCraft")
+@Mod(modid = Reference.ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUIFACTORY ,dependencies =  "after:PneumaticCraft")
 public class PneumaticPopcorn
 {
     @Mod.Instance(Reference.ID)
@@ -30,10 +30,11 @@ public class PneumaticPopcorn
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
         ModBlocks.init();
         ModItems.init();
 
-        MinecraftForge.addGrassSeed(new ItemStack(ModItems.itemCornKernel), 10);
+        MinecraftForge.addGrassSeed(new ItemStack(ModItems.itemCornKernel), 8);
 
         LogHelper.info("Pneumaticraft Popcorn: Successful PreInit");
     }

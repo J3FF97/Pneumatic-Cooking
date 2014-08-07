@@ -53,9 +53,9 @@ public class CropCorn extends ModBlockCrop
         icon[2] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_1");
         icon[3] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_1");
         icon[4] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_2");
-        icon[5] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_2");
-        icon[6] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_3");
-        icon[7] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_4");
+        icon[5] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_3");
+        icon[6] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_4");
+        icon[7] = iconRegister.registerIcon(Reference.ID.toLowerCase()+ ":corn_stage_5");
     }
 
 }
