@@ -17,6 +17,6 @@ public class ItemCorn extends ItemFood
 
     public void registerIcons(IIconRegister icon)
     {
-        itemIcon = icon.registerIcon(Reference.ID.toLowerCase() + ":" + this.getUnlocalizedName());
+        itemIcon = icon.registerIcon(Reference.ID.toLowerCase() + ":cornCob");
     }
 }
