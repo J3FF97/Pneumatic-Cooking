@@ -14,10 +14,6 @@ public class ItemCornKernel extends ItemSeeds
         super(crop, soil);
         this.setUnlocalizedName(Names.itemCornKernelName);
         this.setCreativeTab(CreativeTab.tabPneuPopcorn);
-    }
-
-    public void registerIcons(IIconRegister icon)
-    {
-        itemIcon = icon.registerIcon(Reference.ID.toLowerCase() + ":cornKernel");
+        this.setTextureName(Reference.ID.toLowerCase() + ":cornKernel");
     }
 }

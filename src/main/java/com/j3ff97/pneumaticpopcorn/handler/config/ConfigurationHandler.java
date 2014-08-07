@@ -34,8 +34,8 @@ public class ConfigurationHandler
 
      //   testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
 
-        desc = "Wether or not to use the Pressure Chamber to make Popcorn";
-        usePressureRecipe = getBool("usePressureRecipeName", usePressureRecipe, desc);
+      //  desc = "Wether or not to use the Pressure Chamber to make Popcorn";
+     //   usePressureRecipe = getBool("usePressureRecipeName", usePressureRecipe, desc);
 
         desc = "How much pressure is required to make Popcorn. Default 0.5F. Max 6.0F due to Pressure Chamber restrictions";
         requiredPressure = configuration.getFloat("requiredPressure", Configuration.CATEGORY_GENERAL, requiredPressure, 0.0F, 6.0F, desc );

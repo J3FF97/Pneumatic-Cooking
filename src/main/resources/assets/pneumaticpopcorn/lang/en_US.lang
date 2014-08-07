@@ -2,7 +2,8 @@ itemGroup.pneumaticpopcorn=Pneumatic Popcorn
 
 item.cornKernel.name=Corn Kernel
 item.cornCob.name=Corn Cob
-item.popCorn.name=Popcorn
+item.popCorn.name=Bag of Popcorn
+item.itemBag.name=Bag
 
 tile.cropCorn.name=Corn Crop
 

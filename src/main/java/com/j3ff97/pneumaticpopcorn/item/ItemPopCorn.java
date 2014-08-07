@@ -13,12 +13,7 @@ public class ItemPopCorn extends ItemFood
         super(hunger, saturation, isWolfFood);
         this.setUnlocalizedName(Names.itemPopCornName);
         this.setCreativeTab(CreativeTab.tabPneuPopcorn);
+        this.setTextureName(Reference.ID.toLowerCase() +  ":popcorn");
 
-    }
-
-
-    public void registerIcons(IIconRegister icon)
-    {
-        itemIcon = icon.registerIcon(Reference.ID.toLowerCase() + ":popCorn");
     }
 }

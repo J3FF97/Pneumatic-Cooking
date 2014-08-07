@@ -2,7 +2,8 @@ itemGroup.pneumaticpopcorn=Pneumatic Popcorn
 
 item.cornKernel.name=Maiskorrel
 item.cornCob.name=Maiskolf
-item.popCorn.name=Popcorn
+item.popCorn.name=Zak met Popcorn
+item.itemBag.name=Zak
 
 tile.cropCorn.name=Mais plant
 
