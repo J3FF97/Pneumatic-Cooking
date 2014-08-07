@@ -17,10 +17,10 @@ public class CraftingHandler
     {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemCornKernel, ConfigurationHandler.amountOfKernelFromCorn), ModItems.itemCorn);
 
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.itemBag), "X X", " X ", 'X', Items.paper);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.itemBag, 3), "X X", " X ", 'X', Items.paper);
 
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.hay_block), "XXX", "XXX", "XXX", 'X', ModItems.itemCorn);
 
-        PressureChamberRecipe.chamberRecipes.add(new PressureChamberRecipe(new ItemStack[]{new ItemStack(ModItems.itemCornKernel), new ItemStack(ModItems.itemBag)}, ConfigurationHandler.requiredPressure, new ItemStack[]{new ItemStack(ModItems.itemPopCorn)}, false));
+        PressureChamberRecipe.chamberRecipes.add(new PressureChamberRecipe(new ItemStack[]{new ItemStack(ModItems.itemCornKernel), new ItemStack(ModItems.itemBag, 3)}, ConfigurationHandler.requiredPressure, new ItemStack[]{new ItemStack(ModItems.itemPopCorn, 3)}, false));
     }
 }
