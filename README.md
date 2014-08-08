@@ -1,4 +1,4 @@
-Pneumaticraft-Popcorn
+Pneumatic Cooking
 =====================
 
-The Repository for Pneumaticraft Popcorn, a pneumaticraft addon.
+The Repository for Pneumatic Cooking, a PneumaticCraft addon.
