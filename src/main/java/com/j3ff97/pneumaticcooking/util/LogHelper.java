@@ -1,7 +1,7 @@
-package com.j3ff97.pneumaticpopcorn.util;
+package com.j3ff97.pneumaticcooking.util;
 
 
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 

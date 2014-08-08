@@ -1,4 +1,4 @@
-package com.j3ff97.pneumaticpopcorn.proxy;
+package com.j3ff97.pneumaticcooking.proxy;
 
 
 public class ServerProxy extends CommonProxy

@@ -1,10 +1,10 @@
-package com.j3ff97.pneumaticpopcorn.init;
+package com.j3ff97.pneumaticcooking.init;
 
-import com.j3ff97.pneumaticpopcorn.item.ItemBag;
-import com.j3ff97.pneumaticpopcorn.item.ItemCorn;
-import com.j3ff97.pneumaticpopcorn.item.ItemCornKernel;
-import com.j3ff97.pneumaticpopcorn.item.ItemPopCorn;
-import com.j3ff97.pneumaticpopcorn.reference.Names;
+import com.j3ff97.pneumaticcooking.item.ItemBag;
+import com.j3ff97.pneumaticcooking.item.ItemCorn;
+import com.j3ff97.pneumaticcooking.item.ItemCornKernel;
+import com.j3ff97.pneumaticcooking.item.ItemPopCorn;
+import com.j3ff97.pneumaticcooking.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;

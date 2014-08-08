@@ -1,15 +1,12 @@
-package com.j3ff97.pneumaticpopcorn.handler;
+package com.j3ff97.pneumaticcooking.handler;
 
-import com.j3ff97.pneumaticpopcorn.handler.config.ConfigurationHandler;
-import com.j3ff97.pneumaticpopcorn.init.ModItems;
-import cpw.mods.fml.common.Loader;
+import com.j3ff97.pneumaticcooking.handler.config.ConfigurationHandler;
+import com.j3ff97.pneumaticcooking.init.ModItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import pneumaticCraft.api.recipe.PressureChamberRecipe;
-
-import java.util.Random;
 
 public class CraftingHandler
 {

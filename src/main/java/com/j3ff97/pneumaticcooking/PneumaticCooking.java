@@ -1,12 +1,12 @@
-package com.j3ff97.pneumaticpopcorn;
+package com.j3ff97.pneumaticcooking;
 
-import com.j3ff97.pneumaticpopcorn.handler.CraftingHandler;
-import com.j3ff97.pneumaticpopcorn.handler.config.ConfigurationHandler;
-import com.j3ff97.pneumaticpopcorn.init.ModBlocks;
-import com.j3ff97.pneumaticpopcorn.init.ModItems;
-import com.j3ff97.pneumaticpopcorn.proxy.IProxy;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
-import com.j3ff97.pneumaticpopcorn.util.LogHelper;
+import com.j3ff97.pneumaticcooking.handler.CraftingHandler;
+import com.j3ff97.pneumaticcooking.handler.config.ConfigurationHandler;
+import com.j3ff97.pneumaticcooking.init.ModBlocks;
+import com.j3ff97.pneumaticcooking.init.ModItems;
+import com.j3ff97.pneumaticcooking.proxy.IProxy;
+import com.j3ff97.pneumaticcooking.reference.Reference;
+import com.j3ff97.pneumaticcooking.util.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -17,10 +17,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = Reference.ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUIFACTORY ,dependencies =  "required-after:PneumaticCraft")
-public class PneumaticPopcorn
+public class PneumaticCooking
 {
     @Mod.Instance(Reference.ID)
-    public static PneumaticPopcorn instance;
+    public static PneumaticCooking instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
     public static IProxy proxy;
@@ -36,7 +36,7 @@ public class PneumaticPopcorn
 
         MinecraftForge.addGrassSeed(new ItemStack(ModItems.itemCornKernel), 8);
 
-        LogHelper.info("Pneumaticraft Popcorn: Successful PreInit");
+        LogHelper.info("Pneumatic Cooking: Successful PreInit");
     }
 
     @Mod.EventHandler
@@ -44,7 +44,7 @@ public class PneumaticPopcorn
     {
         CraftingHandler.init();
 
-        LogHelper.info("Pneumaticraft Popcorn: Successful Init");
+        LogHelper.info("Pneumatic Cooking: Successful Init");
     }
 
     @Mod.EventHandler
@@ -52,7 +52,7 @@ public class PneumaticPopcorn
     {
 
 
-        LogHelper.info("Pneumaticraft Popcorn: Successful PostInit");
+        LogHelper.info("Pneumatic Cooking: Successful PostInit");
     }
 
 }

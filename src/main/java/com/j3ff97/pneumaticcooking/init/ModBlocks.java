@@ -1,8 +1,8 @@
-package com.j3ff97.pneumaticpopcorn.init;
+package com.j3ff97.pneumaticcooking.init;
 
-import com.j3ff97.pneumaticpopcorn.block.CropCorn;
-import com.j3ff97.pneumaticpopcorn.block.ModBlockCrop;
-import com.j3ff97.pneumaticpopcorn.reference.Names;
+import com.j3ff97.pneumaticcooking.block.CropCorn;
+import com.j3ff97.pneumaticcooking.block.ModBlockCrop;
+import com.j3ff97.pneumaticcooking.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks

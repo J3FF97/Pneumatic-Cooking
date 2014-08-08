@@ -1,9 +1,9 @@
 [
 {
-  "modid": "pneumaticpopcorn",
-  "name": "PneumaticCraft Popcorn",
-  "description": "Adds Popcorn to Minecraft, addon to PneumaticCraft",
-  "version": "1.1",
+  "modid": "pneumaticcooking",
+  "name": "Pneumatic Cooking",
+  "description": "Adds cooking with Pneumatics, addon to PneumaticCraft",
+  "version": "1.0",
   "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",

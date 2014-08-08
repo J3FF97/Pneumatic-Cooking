@@ -1,4 +1,4 @@
-package com.j3ff97.pneumaticpopcorn.block;
+package com.j3ff97.pneumaticcooking.block;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

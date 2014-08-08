@@ -1,7 +1,7 @@
-package com.j3ff97.pneumaticpopcorn.handler;
+package com.j3ff97.pneumaticcooking.handler;
 
-import com.j3ff97.pneumaticpopcorn.init.ModItems;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.init.ModItems;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

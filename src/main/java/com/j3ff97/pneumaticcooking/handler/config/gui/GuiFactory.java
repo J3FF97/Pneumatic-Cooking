@@ -1,4 +1,4 @@
-package com.j3ff97.pneumaticpopcorn.handler.config.gui;
+package com.j3ff97.pneumaticcooking.handler.config.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

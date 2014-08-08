@@ -1,10 +1,9 @@
-package com.j3ff97.pneumaticpopcorn.item;
+package com.j3ff97.pneumaticcooking.item;
 
-import com.j3ff97.pneumaticpopcorn.handler.CreativeTab;
-import com.j3ff97.pneumaticpopcorn.init.ModItems;
-import com.j3ff97.pneumaticpopcorn.reference.Names;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import com.j3ff97.pneumaticcooking.handler.CreativeTab;
+import com.j3ff97.pneumaticcooking.init.ModItems;
+import com.j3ff97.pneumaticcooking.reference.Names;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;

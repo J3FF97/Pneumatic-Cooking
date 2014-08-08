@@ -1,10 +1,9 @@
-package com.j3ff97.pneumaticpopcorn.item;
+package com.j3ff97.pneumaticcooking.item;
 
-import com.j3ff97.pneumaticpopcorn.handler.CreativeTab;
-import com.j3ff97.pneumaticpopcorn.reference.Names;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.handler.CreativeTab;
+import com.j3ff97.pneumaticcooking.reference.Names;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import net.minecraft.block.Block;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemSeeds;
 
 public class ItemCornKernel extends ItemSeeds

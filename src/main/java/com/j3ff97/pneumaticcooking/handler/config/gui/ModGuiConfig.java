@@ -1,8 +1,8 @@
-package com.j3ff97.pneumaticpopcorn.handler.config.gui;
+package com.j3ff97.pneumaticcooking.handler.config.gui;
 
 
-import com.j3ff97.pneumaticpopcorn.handler.config.ConfigurationHandler;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.handler.config.ConfigurationHandler;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

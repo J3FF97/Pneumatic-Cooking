@@ -1,7 +1,7 @@
-package com.j3ff97.pneumaticpopcorn.handler.config;
+package com.j3ff97.pneumaticcooking.handler.config;
 
 
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;

@@ -1,4 +1,4 @@
-package com.j3ff97.pneumaticpopcorn.reference;
+package com.j3ff97.pneumaticcooking.reference;
 
 public class Names
 {

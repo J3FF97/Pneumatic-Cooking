@@ -1,10 +1,10 @@
-package com.j3ff97.pneumaticpopcorn.block;
+package com.j3ff97.pneumaticcooking.block;
 
 
-import com.j3ff97.pneumaticpopcorn.handler.config.ConfigurationHandler;
-import com.j3ff97.pneumaticpopcorn.init.ModItems;
-import com.j3ff97.pneumaticpopcorn.reference.Names;
-import com.j3ff97.pneumaticpopcorn.reference.Reference;
+import com.j3ff97.pneumaticcooking.handler.config.ConfigurationHandler;
+import com.j3ff97.pneumaticcooking.init.ModItems;
+import com.j3ff97.pneumaticcooking.reference.Names;
+import com.j3ff97.pneumaticcooking.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.util.IIcon;
