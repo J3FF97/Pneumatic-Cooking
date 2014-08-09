@@ -10,12 +10,30 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockCrops;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
 
+import java.util.ArrayList;
 import java.util.Random;
+
 
 public class CropCorn extends BlockCrops
 {
+    protected IIcon[] icon;
+
+    @Override
+    protected Item func_149866_i()
+    {
+        return ModItems.itemCorn;
+    }
+
+    @Override
+    protected Item func_149865_P()
+    {
+        return ModItems.itemCornKernel;
+    }
+
     public CropCorn()
     {
         super();
@@ -24,24 +42,17 @@ public class CropCorn extends BlockCrops
 
     }
 
-    protected IIcon[] icon;
-
-    protected Item cornDrop()
+    @Override
+    @SideOnly(Side.CLIENT)
+    public Item getItem(World world, int par1, int par2, int par3)
     {
-        return ModItems.itemCorn;
+        return this.func_149865_P();
     }
-
-    protected Item kernelDrop()
-    {
-        return ModItems.itemCornKernel;
-    }
-
-
 
     @Override
     public Item getItemDropped(int par1, Random random, int par2)
     {
-        return par1 == 7 ? cornDrop(): kernelDrop();
+        return par1 == 7 ? func_149866_i(): func_149865_P();
     }
 
     @Override

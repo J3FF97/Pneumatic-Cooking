@@ -16,11 +16,11 @@ public class ItemPopCorn extends ItemFood
         super(hunger, saturation, isWolfFood);
         this.setUnlocalizedName(Names.itemPopCornName);
         this.setCreativeTab(CreativeTab.tabPneuPopcorn);
-        this.setTextureName(Reference.ID.toLowerCase() +  ":popcorn");
+        this.setTextureName(Reference.ID.toLowerCase() +  ":popCorn");
 
     }
 
-    public ItemStack oneaten(ItemStack itemStack, World world, EntityPlayer player)
+    public ItemStack onEaten(ItemStack itemStack, World world, EntityPlayer player)
     {
         super.onEaten(itemStack, world, player);
         return new ItemStack(ModItems.itemBag);
