@@ -4,10 +4,11 @@ import com.j3ff97.pneumaticcooking.block.CropCorn;
 import com.j3ff97.pneumaticcooking.block.ModBlockCrop;
 import com.j3ff97.pneumaticcooking.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.BlockCrops;
 
 public class ModBlocks
 {
-    public static ModBlockCrop cropCorn;
+    public static BlockCrops cropCorn;
 
     public static void init()
     {
