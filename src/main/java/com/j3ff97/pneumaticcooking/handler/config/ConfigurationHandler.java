@@ -12,8 +12,7 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
- //   public static boolean testValue              = false;
-    public static boolean usePressureRecipe      = true;
+
     public static float   requiredPressure       = 0.5F;
     public static int     amountOfKernelFromCorn = 4;
     public static int     amountOfCornFromCrop   = 1;
@@ -31,11 +30,6 @@ public class ConfigurationHandler
     private static void loadConfiguration()
     {
         String desc;
-
-     //   testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
-
-      //  desc = "Wether or not to use the Pressure Chamber to make Popcorn";
-     //   usePressureRecipe = getBool("usePressureRecipeName", usePressureRecipe, desc);
 
         desc = "How much pressure is required to make Popcorn. Default 0.5F. Max 6.0F due to Pressure Chamber restrictions";
         requiredPressure = configuration.getFloat("requiredPressure", Configuration.CATEGORY_GENERAL, requiredPressure, 0.0F, 6.0F, desc );

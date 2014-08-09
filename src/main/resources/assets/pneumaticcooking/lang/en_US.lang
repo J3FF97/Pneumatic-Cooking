@@ -10,4 +10,3 @@ tile.cropCorn.name=Corn Crop
 amountOfCornFromCropName=The amount of corn you get from breaking the crop.
 amountOfKernelFromCornName=The amount of kernels you get from crafting.
 requiredPressure=The amount of pressure required to *pop* corn.
-usePressureRecipeName=Using PneumaticCraft's recipes.
